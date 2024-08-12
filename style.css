@@ -28,6 +28,18 @@ h1, h2 {
     text-shadow: 4px 4px #101010;
 }
 
+p {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+
+a {
+    color: #e06f49;
+}
+
 .dice-container {
     margin: 1% 6%;
     padding: 20px;
@@ -35,8 +47,9 @@ h1, h2 {
 }
 
 #d20-container {
-    background-image: url(assets/img-d20.svg), 
-    linear-gradient(#813f29, #470101); 
+    background-image: 
+        url(assets/img-d20.svg), 
+        linear-gradient(#813f29, #470101); 
     background-position: 90%, 0;
     background-repeat: no-repeat;
     background-size: 20% auto, cover;
