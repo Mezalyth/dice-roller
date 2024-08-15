@@ -12,7 +12,7 @@ body {
     font-family: "Jacquard 12", system-ui;
     font-weight: 400;
     font-style: normal;
-    font-size: 2em;
+    font-size: 2.6em;
 }
 
 h1, footer {
@@ -50,7 +50,12 @@ a {
     background-image: 
         url(assets/d20.png), 
         linear-gradient(#aa2b00, #7b0000); 
-    background-position: 90%, 0;
+    background-position: right -2% top -2%;
     background-repeat: no-repeat;
     background-size: 10% auto, cover;
+}
+
+.crit {
+    color: #ffd700;
+    text-shadow: 2px 2px #101010;
 }
