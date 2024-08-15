@@ -7,23 +7,19 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jacquard+12&family=Montserrat&display=swap" rel="stylesheet">
-    <script src="script.js"></script> 
     <title>Dice Roller</title>
 </head>
 <body>
     <h1>Dice Roller</h1>
     <div class="dice-container" id="d20-container">
         <h2>D20</h2>
-        <div class="dice" id="d20">20</div>
-        <div class="quantity-counter">
-            <button id="counter-increment" class="decrement">-</button>
-            <input id="counter-value" class="value" type="number" value="0">
-            <button id="counter-decrement" class="increment">+</button>
-          </div>
-          <button>Roll!</button>
+            <input id="dice-quantity" class="value" type="number" value="1">
+            <button onclick="rollDice()" class="roll-dice" id="roll20">Roll!</button>
+            <div class="dice" id="dice-result"></div>
     </div>
     <footer>
-        <p>Lovely dice icons by <a href="https://thenounproject.com/browse/collection-icon/dice-194893/?p=1" target="_blank">Bert Knight</a> from The Noun Project.</p>
+        <p>Dice icons by <a href="www.freepik.com" target="_blank">Freepik</a>.</p>
+        <script src="script.js"></script>
     </footer>
 </body>
 </html>
